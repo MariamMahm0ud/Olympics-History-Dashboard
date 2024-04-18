@@ -8,3 +8,4 @@ pandas
 plotly
 tensorflow
 tensorflow_intel
+gunicorn
