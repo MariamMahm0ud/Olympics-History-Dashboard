@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 import base64
-from sec_dash import *
+from olympics_predictions import *
 import dash
 import dash_bootstrap_components as dbc
 
@@ -243,7 +243,6 @@ navbar = dbc.Navbar(
                     ],
                     align="center",
                 ),
-                href="#",
                 style={"text-decoration": "none"}
             )
         ),
